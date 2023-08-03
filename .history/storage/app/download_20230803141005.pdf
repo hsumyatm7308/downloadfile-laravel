@@ -1,0 +1,4 @@
+use Illuminate\Support\Facades\Storage;
+
+$fileContent = file_get_contents('path/to/your/example.pdf');
+Storage::put('example.pdf', $fileContent);
